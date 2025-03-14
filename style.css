@@ -1,0 +1,86 @@
+@charset "Utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 80px;
+    color: #E1624F;
+    padding: 0px 15px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 0px 15px;
+    
+}
+
+section.destino > h1 {
+    padding: 7px 0px
+}
+
+section.california > div.foto-california {
+    background-image: url(https://www.remessaonline.com.br/blog/wp-content/uploads/2019/11/melhores-cidades-para-morar-na-california.jpg.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 50em ;
+    height: 24em;
+    margin: 20px 0px ;
+    border-radius: 20px;
+}
+
+section.nova-york > div.foto-nova-york {
+    background-image: url(https://www.remessaonline.com.br/blog/wp-content/uploads/2022/06/morar-em-nova-york.jpg.optimal.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 50em ;
+    height: 24em;
+    margin: 20px 0px ;
+    border-radius: 20px;
+}
+
+section.florida > div.foto-florida {
+    background-image: url(https://blogmaladeviagem.com.br/wp-content/uploads/2022/12/Blog-MV-Orlando.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 50em ;
+    height: 24em;
+    margin: 20px 0px ;
+    border-radius: 20px;
+}
+
+
+h1.padding {
+    text-indent: 5px;
+}
+
+div.bandeira {
+    background-image: url(https://cl.usembassy.gov/wp-content/uploads/sites/104/15545493645_4eeaf62e01_k-1140x684.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    max-width: 50em ;
+    height: 24em;
+}
+
+footer > p {
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+
+}
